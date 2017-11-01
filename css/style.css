@@ -38,9 +38,29 @@ header h1{
 }
 .content dl{
     text-align: center;
-
+    margin-top:.05rem; 
+    margin-bottom:.05rem; 
 }
 .content dl img{
     width: 1.345rem;
     height: .44rem;
+}
+.content p{
+    line-height: .3rem;
+}
+.content p img{
+    width: 15px;
+    height: 17px;
+}
+.content p  input{
+    border-width:0;
+    padding-left: .1rem;
+}
+.btn{
+    width: 80%;
+    height:.3rem;
+    background-color: green;
+    color: #fff;
+    border-width:0;
+    margin-top: .1rem;
 }
