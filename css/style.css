@@ -1,0 +1,46 @@
+body{
+    font-size: .14rem ;
+    overflow: hidden;
+}
+header{
+    position: relative;
+    height: .4rem;
+    z-index: 3;
+    background-color: #000;
+    color: #fff;
+}
+header span{
+    position: absolute;
+    left:.1rem;
+    font-size: .16rem;
+    top:.1rem;
+}
+header h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: .18rem  ;
+    line-height: .4rem;
+}
+.wrap{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(102, 102, 102, .5)
+}
+.content{
+    width: 85%;
+    height: 60%;
+    background-color: #fff;
+    margin:35% auto;
+    padding:.1rem;
+    border-radius: .1rem;
+}
+.content dl{
+    text-align: center;
+
+}
+.content dl img{
+    width: 1.345rem;
+    height: .44rem;
+}
